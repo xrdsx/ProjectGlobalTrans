@@ -61,7 +61,7 @@ namespace GlobalTrans.Controllers
             _driverContext.Driver.Add(driver);
             _driverContext.SaveChanges();
            
-                return RedirectToAction(nameof(Index));
+             return RedirectToAction(nameof(Index));
             
             
         }
@@ -90,6 +90,7 @@ namespace GlobalTrans.Controllers
             driver.phoneNumber = drivermodel.phoneNumber;
             driver.mail = drivermodel.mail;
 
+            _driverContext.SaveChanges();
 
             return RedirectToAction(nameof(Index));
             
@@ -108,7 +109,8 @@ namespace GlobalTrans.Controllers
         public ActionResult Delete(int id, Driver drivermodel)
         {
                 Driver driver = _driverContext.Driver.FirstOrDefault(x => x.id_driver == id);
-                Driver.drivers.Remove(driver);
+                _driverContext.Driver.Remove(driver);
+            _driverContext.SaveChanges();
                 return RedirectToAction(nameof(Index));
             
             
