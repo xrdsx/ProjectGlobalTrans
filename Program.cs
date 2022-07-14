@@ -1,7 +1,5 @@
 using GlobalTrans;
-
-using GlobalTrans.Models;
-
+using GlobalTrans.DBcontext;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using System.Data.Common;
@@ -10,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<DriverContext>(options =>
+builder.Services.AddDbContext<DbConnectionContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("TransportCompanyDatabBase"));
 });
@@ -36,6 +34,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Driver}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,8 +1,7 @@
 ﻿using GlobalTrans.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using GlobalTrans.Models;
-
+using GlobalTrans.DBcontext;
 
 namespace GlobalTrans.Controllers
 {
@@ -10,31 +9,27 @@ namespace GlobalTrans.Controllers
     {
 
 
-        private readonly DriverContext _driverContext;
+        private readonly DbConnectionContext _dbConnDb;
 
-        public DriverController(DriverContext driverContext)
+        public DriverController(DbConnectionContext driverContext)
         {
-            _driverContext = driverContext;
+            _dbConnDb = driverContext;
         }
 
 
 
-
-
-
-
         // GET: DriverController
-        public ActionResult Index()
+        public ActionResult DriverList()
         {
 
             
-            return View(_driverContext.Driver.ToList());
+            return View(_dbConnDb.Driver.ToList());
         }
 
         // GET: DriverController/Details/5
         public ActionResult Details(int id)
         {
-            return View(_driverContext.Driver.FirstOrDefault(x => x.id_driver == id));
+            return View(_dbConnDb.Driver.FirstOrDefault(x => x.id_driver == id));
         }
 
         // GET: DriverController/Create
@@ -49,19 +44,14 @@ namespace GlobalTrans.Controllers
         public ActionResult Create(Driver driver)
 
         {
+            
+            
 
-            // var getNumberId = _driverContext.Driver.
-
-            //driver.id_driver = _driverContext.Driver.Max(p => p.id_driver);
-
-
-
-
-
-            _driverContext.Driver.Add(driver);
-            _driverContext.SaveChanges();
+            _dbConnDb.Driver.Add(driver);
+            _dbConnDb.SaveChanges();
            
-             return RedirectToAction(nameof(Index));
+             return RedirectToAction(nameof(DriverList));
+            
             
             
         }
@@ -69,7 +59,7 @@ namespace GlobalTrans.Controllers
         // GET: DriverController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View(_driverContext.Driver.FirstOrDefault(x => x.id_driver == id));
+            return View(_dbConnDb.Driver.FirstOrDefault(x => x.id_driver == id));
         }
 
         // POST: DriverController/Edit/5
@@ -78,7 +68,7 @@ namespace GlobalTrans.Controllers
         public ActionResult Edit(int id, Driver drivermodel)
         {
 
-            Driver driver = _driverContext.Driver.FirstOrDefault(x => x.id_driver == id);
+            Driver driver = _dbConnDb.Driver.FirstOrDefault(x => x.id_driver == id);
 
             driver.name = drivermodel.name;
             driver.surname = drivermodel.surname;
@@ -90,9 +80,9 @@ namespace GlobalTrans.Controllers
             driver.phoneNumber = drivermodel.phoneNumber;
             driver.mail = drivermodel.mail;
 
-            _driverContext.SaveChanges();
+            _dbConnDb.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(DriverList));
             
             
         }
@@ -100,7 +90,7 @@ namespace GlobalTrans.Controllers
         // GET: DriverController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View(_driverContext.Driver.FirstOrDefault(x => x.id_driver == id));
+            return View(_dbConnDb.Driver.FirstOrDefault(x => x.id_driver == id));
         }
 
         // POST: DriverController/Delete/5
@@ -108,10 +98,10 @@ namespace GlobalTrans.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Driver drivermodel)
         {
-                Driver driver = _driverContext.Driver.FirstOrDefault(x => x.id_driver == id);
-                _driverContext.Driver.Remove(driver);
-            _driverContext.SaveChanges();
-                return RedirectToAction(nameof(Index));
+                Driver driver = _dbConnDb.Driver.FirstOrDefault(x => x.id_driver == id);
+                _dbConnDb.Driver.Remove(driver);
+                _dbConnDb.SaveChanges();
+                return RedirectToAction(nameof(DriverList));
             
             
         }

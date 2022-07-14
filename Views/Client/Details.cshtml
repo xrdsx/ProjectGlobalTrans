@@ -1,20 +1,26 @@
-﻿@model GlobalTrans.Models.Driver
+﻿@model GlobalTrans.Models.Client
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details of the driver</h1>
+<h1>Details</h1>
 
 <div>
-   
+    <h4>Client</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.id_driver)
+            @Html.DisplayNameFor(model => model.id_client)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.id_driver)
+            @Html.DisplayFor(model => model.id_client)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.name_company)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.name_company)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.name)
@@ -29,16 +35,10 @@
             @Html.DisplayFor(model => model.surname)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.dateOfBirth)
+            @Html.DisplayNameFor(model => model.nip)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.dateOfBirth)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.personalIDNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.personalIDNumber)
+            @Html.DisplayFor(model => model.nip)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.zipCode)
@@ -59,18 +59,6 @@
             @Html.DisplayFor(model => model.street)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.houseNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.houseNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.flatNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.flatNumber)
-        </dd>
-        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.phoneNumber)
         </dt>
         <dd class = "col-sm-10">
@@ -85,6 +73,6 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new {  id = Model.id_driver  }) |
-    <a asp-action="DriverList">Back to List Drivers</a>
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.id_client }) |
+    <a asp-action="Index">Back to List</a>
 </div>

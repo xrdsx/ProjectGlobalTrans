@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\polfr\OneDrive\Pulpit\GlobalTrans
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/ClientList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENsaWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -27,12 +39,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEVkaXQuY3NodG1s
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/DriverList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERyaXZlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEluZGV4LmNzaHRtbA==
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Home/Index.cshtml]
