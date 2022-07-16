@@ -11,9 +11,9 @@ namespace GlobalTrans.Models
         [DisplayName("Weight load:")]
         public int weightLoad { get; set; }
         [DisplayName("Length load:")]
-        public int length { get; set; }
+        public int lengthLoad { get; set; }
         [DisplayName("Type of cargo:")]
-        public int kindOf { get; set; }
+        public string kindOf { get; set; }
 
 
 

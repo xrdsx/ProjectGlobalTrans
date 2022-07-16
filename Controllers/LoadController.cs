@@ -17,7 +17,7 @@ namespace GlobalTrans.Controllers
 
 
         // GET: LoadController1
-        public ActionResult Index()
+        public ActionResult LoadList()
         {
             return View(_dbConnDb.Load.ToList());
         }
@@ -42,7 +42,7 @@ namespace GlobalTrans.Controllers
             _dbConnDb.Load.Add(load);
             _dbConnDb.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(LoadList));
 
         }
 
@@ -60,13 +60,13 @@ namespace GlobalTrans.Controllers
             Load load  = _dbConnDb.Load.FirstOrDefault(x => x.id_load == id);
 
             load.weightLoad = loadmodel.weightLoad;
-            load.length = loadmodel.length;
+            load.lengthLoad = loadmodel.lengthLoad;
             load.kindOf = loadmodel.kindOf;
 
             _dbConnDb.SaveChanges();
 
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(LoadList));
 
         }
 
@@ -84,7 +84,7 @@ namespace GlobalTrans.Controllers
             Load load = _dbConnDb.Load.FirstOrDefault(x => x.id_load == id);
             _dbConnDb.Load.Remove(load);
             _dbConnDb.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(LoadList));
 
         }
     }
