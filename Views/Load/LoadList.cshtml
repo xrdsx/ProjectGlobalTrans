@@ -1,0 +1,49 @@
+﻿@model IEnumerable<GlobalTrans.Models.Load>
+
+@{
+    ViewData["Title"] = "Load List";
+}
+
+<h1>LoadList</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.weightLoad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.length)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.kindOf)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.weightLoad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.length)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kindOf)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.id_load  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.id_load }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.id_load  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

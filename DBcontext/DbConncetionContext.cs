@@ -12,6 +12,7 @@ namespace GlobalTrans.DBcontext
 
         public DbSet<Driver> Driver { get; set; }
         public DbSet<Client> Client { get; set; }
+        public DbSet<Load> Load { get; set; }
 
 
     }

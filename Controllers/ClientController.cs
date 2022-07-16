@@ -81,22 +81,19 @@ namespace GlobalTrans.Controllers
         // GET: ClientController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(_dbConnDb.Client.FirstOrDefault(x => x.id_client == id));
+            
         }
 
         // POST: ClientController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Client clientmodel)
         {
-            try
-            {
-                return RedirectToAction(nameof(ClientList));
-            }
-            catch
-            {
-                return View();
-            }
+            Client client = _dbConnDb.Client.FirstOrDefault(x => x.id_client == id);
+            _dbConnDb.Client.Remove(client);
+            _dbConnDb.SaveChanges();
+            return RedirectToAction(nameof(ClientList));
         }
     }
 }

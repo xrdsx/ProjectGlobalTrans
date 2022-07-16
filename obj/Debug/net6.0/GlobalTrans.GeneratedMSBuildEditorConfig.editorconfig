@@ -23,8 +23,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Create.cshtml]
@@ -53,6 +61,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/LoadList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxMb2FkTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Shared/_ValidationScriptsPartial.cshtml]

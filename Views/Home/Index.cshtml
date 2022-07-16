@@ -1,12 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Admin View";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome admin good luck have fun </h1>
    
-    <a button type="button" class="btn btn-success" id="Btn"  asp-controller="Driver" asp-action="DriverList">List of drivers</a>
+    <a button type="button" class="btn btn-primary" id="Btn"  asp-controller="Driver" asp-action="DriverList">List of drivers</a>
     <a button type="button" class="btn btn-primary" id="Btn"  asp-controller="Client" asp-action="ClientList">List of clients</a>
+    <a button type="button" class="btn btn-primary" id="Btn"  asp-controller="Load" asp-action="LoadList">List of clients</a>
 
 
 </div>
