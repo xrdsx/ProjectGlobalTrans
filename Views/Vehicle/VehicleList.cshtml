@@ -1,0 +1,81 @@
+﻿@model IEnumerable<GlobalTrans.Models.Vehicle>
+
+@{
+    ViewData["Title"] = "VehicleList";
+}
+
+<h1>VehicleList</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.mdoel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.registrationNUmber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.yearProduction)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.vinNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.course)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rodzaj_pojazdu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emisja_spalin)
+            </th>
+        
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.mdoel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.registrationNUmber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yearProduction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vinNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.course)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rodzaj_pojazdu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emisja_spalin)
+            </td>
+         
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.id_vehicle }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
