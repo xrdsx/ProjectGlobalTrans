@@ -9,15 +9,15 @@ namespace GlobalTrans.Models
         [DisplayName("Vehcile id:") ]
         public int id_vehicle { get; set; }
         [DisplayName("Model:")]
-        public int mdoel { get; set; }
+        public string model { get; set; }
         [DisplayName("Brand:")]
-        public int brand { get; set; }
+        public string brand { get; set; }
         [DisplayName("Registration Number:")]
         public int registrationNUmber { get; set; }
         [DisplayName("Year production:")]
-        public int yearProduction { get; set; }
+        public DateTime yearProduction { get; set; }
         [DisplayName("Vin number:")]
-        public int vinNumber { get; set; }
+        public string vinNumber { get; set; }
         [DisplayName("Course:")]
         public int course { get; set; }
         [DisplayName("Kind of vehicle:")]
