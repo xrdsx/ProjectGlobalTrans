@@ -8,113 +8,121 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GlobalTrans
 build_property.RootNamespace = GlobalTrans
-build_property.ProjectDir = C:\Users\polfr\OneDrive\Pulpit\GlobalTrans\
+build_property.ProjectDir = C:\Users\polfr\Source\Repos\xrdsx\ProjectGlobalTrans\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\polfr\OneDrive\Pulpit\GlobalTrans
+build_property.MSBuildProjectDirectory = C:\Users\polfr\Source\Repos\xrdsx\ProjectGlobalTrans
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/ClientList.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Client/ClientList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENsaWVudExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Create.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Client/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Delete.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Client/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Details.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Client/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Client/Edit.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Client/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Create.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Driver/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Delete.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Driver/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Details.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Driver/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/DriverList.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Driver/DriverList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXERyaXZlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Driver/Edit.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Driver/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Home/Index.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Home/Privacy.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Create.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Load/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Delete.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Load/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Details.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Load/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/Edit.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Load/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Load/LoadList.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Load/LoadList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFxMb2FkTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/RouteToDriver/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVUb0RyaXZlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Route/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Vehicle/Create.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Vehicle/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Vehicle/Delete.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Vehicle/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Vehicle/Details.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Vehicle/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Vehicle/Edit.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Vehicle/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Vehicle/VehicleList.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Vehicle/VehicleList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxWZWhpY2xlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/_ViewImports.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/_ViewStart.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/polfr/OneDrive/Pulpit/GlobalTrans/Views/Shared/_Layout.cshtml]
+[C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uvf78j3793

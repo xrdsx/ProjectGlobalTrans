@@ -11,8 +11,7 @@ namespace GlobalTrans.Models
         public int height { get; set; }
         public int length { get; set; }
         public int vinNumber { get; set; }
-        public int fk_id_vehicle {get; set;}
-        public string fk_nr_police { get; set; }
+       
         public string numberVin { get; set; }
 
     }

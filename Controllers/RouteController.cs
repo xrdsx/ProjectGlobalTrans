@@ -1,10 +1,18 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using GlobalTrans.DBcontext;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GlobalTrans.Controllers
 {
     public class RouteController : Controller
     {
+        private readonly DbConnectionContext _dbConnDb;
+
+        public RouteController(DbConnectionContext driverContext)
+        {
+            _dbConnDb = driverContext;
+        }
+
         // GET: RouteController
         public ActionResult Index()
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q46wq+8jC/VUcYaa3+iQybAgotr3czZVLNTiyc4Zxz9rsldZuBI3kHolb7JjBKOmjM8ZN4lCyEZW5KBpzHLiBg==",
+  "dgSpecHash": "YAZ7tifqZByelFD5x7/qstwn9wmvL9Wn44/Zz+Zyfh1gUln0r0OjUrkvSDHVN3++vPX+vTt+9G4K66BOxOF+7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\polfr\\OneDrive\\Pulpit\\GlobalTrans\\GlobalTrans.csproj",
+  "projectFilePath": "C:\\Users\\polfr\\Source\\Repos\\xrdsx\\ProjectGlobalTrans\\GlobalTrans.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\polfr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\polfr\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

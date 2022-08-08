@@ -9471,11 +9471,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\polfr\\OneDrive\\Pulpit\\GlobalTrans\\GlobalTrans.csproj",
+      "projectUniqueName": "C:\\Users\\polfr\\Source\\Repos\\xrdsx\\ProjectGlobalTrans\\GlobalTrans.csproj",
       "projectName": "GlobalTrans",
-      "projectPath": "C:\\Users\\polfr\\OneDrive\\Pulpit\\GlobalTrans\\GlobalTrans.csproj",
+      "projectPath": "C:\\Users\\polfr\\Source\\Repos\\xrdsx\\ProjectGlobalTrans\\GlobalTrans.csproj",
       "packagesPath": "C:\\Users\\polfr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\polfr\\OneDrive\\Pulpit\\GlobalTrans\\obj\\",
+      "outputPath": "C:\\Users\\polfr\\Source\\Repos\\xrdsx\\ProjectGlobalTrans\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

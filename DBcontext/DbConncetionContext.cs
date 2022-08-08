@@ -18,8 +18,13 @@ namespace GlobalTrans.DBcontext
         public DbSet<Trailer> Trailer { get; set; }
         public DbSet<Insurance> Insurance { get; set; }
         public DbSet<Road> Road { get; set; }
-        
+        public DbSet<RoadToDriver> RoadToDriver { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+           
+            modelBuilder.Entity<RoadToDriver>().HasNoKey();
+        }
 
     }
 }

@@ -25,8 +25,7 @@ namespace GlobalTrans.Models
         [DisplayName("Exhaust emissions:")]
         public int emisja_spalin { get; set; }
         
-        public int fk_number_policy { get; set; }
-        public int fk_id_trailers { get; set; }
+        
 
 
 

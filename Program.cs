@@ -12,10 +12,10 @@ builder.Services.AddDbContext<DbConnectionContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("TransportCompanyDatabBase"));
 });
-
 builder.Services.AddControllersWithViews();
-
 var app = builder.Build();
+ModelBuilder ModelBuilder = new ModelBuilder();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

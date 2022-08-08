@@ -36,6 +36,9 @@ namespace GlobalTrans.Controllers
             {
                 return View();
             }
+
+            
+
         }
 
         // GET: TrailerController/Edit/5
