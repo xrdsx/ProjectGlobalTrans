@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GlobalTrans
 build_property.RootNamespace = GlobalTrans
-build_property.ProjectDir = C:\Users\polfr\source\repos\xrdsx\ProjectGlobalTrans\
+build_property.ProjectDir = C:\Users\polfr\Source\Repos\xrdsx\ProjectGlobalTrans\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\polfr\source\repos\xrdsx\ProjectGlobalTrans
+build_property.MSBuildProjectDirectory = C:\Users\polfr\Source\Repos\xrdsx\ProjectGlobalTrans
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/polfr/Source/Repos/xrdsx/ProjectGlobalTrans/Views/Client/ClientList.cshtml]
